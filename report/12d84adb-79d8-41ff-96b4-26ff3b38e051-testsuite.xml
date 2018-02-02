@@ -1,0 +1,30 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1517565314011" stop="1517565336068">
+  <name>scripts.Test_case</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1517565314011" status="passed" stop="1517565336068">
+      <name>Test_search.test_2case[search_test_001-1-456]</name>
+      <attachments>
+        <attachment source="83d6b3c6-7f43-4c0c-8be9-d56301b8e94a-attachment.txt" title="Captured log call" type="text/plain"/>
+        <attachment source="0f563951-c0b0-44f6-8210-4622ae5a6184-attachment.txt" title="Captured log setup" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="12276-MainThread"/>
+        <label name="host" value="DESKTOP-GB8EBON"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1517565327256" status="passed" stop="1517565336067">
+          <name>我是001</name>
+          <title>我是001</title>
+          <attachments>
+            <attachment source="2001f84f-e6c5-4d48-900c-83ee13422b9b-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

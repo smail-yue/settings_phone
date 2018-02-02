@@ -1,4 +1,4 @@
-import  sys,os
+import  sys,os,allure
 sys.path.append(os.getcwd())
 from Base.read_data import  ret_yaml_data
 from Base.init_driver import init_driver
@@ -26,16 +26,11 @@ class Test_search(object):
         #结束搜索
         self.driver.quit()
 
-    # 初始化搜索
-    # @pytest.fixture(scope="class")
-    # def test_1sta_search(self):
-        # 点击搜索按钮
-        # self.search_obj.start_search()
-
-    # @pytest.mark.usefixtures("sta_search")
-    # @pytest.mark.parametrize("text",["1","2","3"])
+    @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)
+    @allure.step(title="我是001")
     @pytest.mark.parametrize('test_id,input_text,expect_data',package_param_data())
     def test_2case(self,test_id,input_text,expect_data):
+        allure.attach("描述","我在001里面")
         print("test_id",test_id)
         #输入测试用例
         self.search_obj.input_search(input_text)

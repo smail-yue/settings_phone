@@ -1,0 +1,6 @@
+remote_connection.py       409 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/c2fa5e3a-c029-4db9-ae6f-a52315c7fe49/element {"value": "android:id/search_src_text", "sessionId": "c2fa5e3a-c029-4db9-ae6f-a52315c7fe49", "using": "id"}
+remote_connection.py       502 DEBUG    Finished Request
+remote_connection.py       409 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/c2fa5e3a-c029-4db9-ae6f-a52315c7fe49/element/2/value {"id": "2", "value": ["1"], "sessionId": "c2fa5e3a-c029-4db9-ae6f-a52315c7fe49"}
+remote_connection.py       502 DEBUG    Finished Request
+remote_connection.py       409 DEBUG    GET http://127.0.0.1:4723/wd/hub/session/c2fa5e3a-c029-4db9-ae6f-a52315c7fe49/screenshot {"sessionId": "c2fa5e3a-c029-4db9-ae6f-a52315c7fe49"}
+remote_connection.py       502 DEBUG    Finished Request
